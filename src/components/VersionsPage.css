@@ -1,0 +1,56 @@
+.versions-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .versions-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .version-item {
+    margin-bottom: 2rem;
+  }
+  
+  .version-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .version-date {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-list {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+  }
+  
+  .feature-list li {
+    margin-bottom: 0.5rem;
+  }
+  .versions-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .back-arrow {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .back-arrow:hover {
+    color: #666;
+  }

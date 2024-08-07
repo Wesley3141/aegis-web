@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.landing-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 7rem; /* Increased font size */
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.author {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  text-decoration: none; /* Remove underline */
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem; /* Add margin bottom to create space */
+}
+
+.download-button {
+  width: 50px; /* Reduced width */
+  height: 50px; /* Reduced height */
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background-color: #666;
+}
+
+.download-button i {
+  color: #fff;
+  font-size: 20px; /* Reduced font size */
+}
+
+.learn-more-container {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.learn-more-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.learn-more-button:hover {
+  color: #333;
+}
+.learn-more-container {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.learn-more-button,
+.versions-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.learn-more-button:hover,
+.versions-button:hover {
+  color: #333;
+}
+
+.separator {
+  margin: 0 0.5rem;
+  color: #666;
+}

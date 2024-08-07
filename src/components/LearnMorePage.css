@@ -1,0 +1,87 @@
+/* Import a modern and clean font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent scrollbar */
+}
+
+.learn-more-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.page-title {
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1.5rem; /* Reduced margin */
+  max-width: 500px;
+}
+
+.features {
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.features-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.features-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feature-item {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.call-to-action {
+  margin-top: 2rem;
+}
+
+.call-to-action p {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1.5rem; /* Increased margin */
+}
+
+.back-button {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #333;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #555;
+}
