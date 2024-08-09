@@ -21,13 +21,13 @@ const LandingPage = () => {
       <div className="buttons">
         <button
           className="download-button windows"
-          onClick={() => handleDownload('https://download847.mediafire.com/vo2jex2d1vtg0Lr9Rc1o8urzaA097A2zmasutqbYIv4GZHgvs0I45kQ_CiweYP7Q90YzRHcwaOnvXPUPV7hvf_vnRNy-Er1zMCHdEGGiJgyleC9No6VJc45iJWjo6MBY3hPR2bQctO7M1ZZTUXDpwztAFsnhe5-HijJb3g_Pd5AlUA/sgdjflrpypcq3qw/aegis-1.0.0-setup.exe')}
+          onClick={() => handleDownload('https://drive.google.com/uc?export=download&id=1vPq0stx-O_kFBkcwLqqp1lhfx8GH2AYH')}
         >
           <i className="fab fa-windows"></i>
         </button>
         <button
           className="download-button mac"
-          onClick={() => handleDownload('path/to/mac/file')}
+          onClick={() => handleDownload('https://drive.google.com/uc?export=download&id=1kUPsCaurC0HgFaU3juLG58EqKyiig3CO')}
         >
           <i className="fab fa-apple"></i>
         </button>
